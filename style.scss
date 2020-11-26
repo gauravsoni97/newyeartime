@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Itim', cursive;
+
+}
+body{
+    // background-color: rgb(252,169,20);
+    background: url('/img\ \(1\).jpg')no-repeat center center/cover;
+}
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+h1{
+    font-size: 3rem;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    p {
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+        border-radius: 40px;
+        height: 100px;
+        width: 400px;
+        background: #ff7376;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.705);
+        line-height: 100px;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 5px;
+        
+    }
+}
